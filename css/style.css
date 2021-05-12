@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+}
+header{
+    position: relative;
+    padding-top: 10px;
+    height: 950px;
+}
+header .top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+header .logo{
+    float: left;
+    margin-left: 10%;
+}
+header .logo a{
+    display: block;
+    width: 140px;
+    height: 40px;
+    background-image: url(../images/1478704760886.png);
+    background-repeat: no-repeat;
+}
+header .top .nav{
+    float: right;
+    margin-top: 14px;
+    margin-right: 9%;
+}
+header .nav>li{
+    float: left;
+    position: relative;
+}
+header .nav>li ul{
+    position: absolute;
+    display: none;
+    background-color: #fff;
+}
+header .nav>li ul li{
+    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+header .nav>li ul li a{
+    text-decoration: none;
+    color: #262626;
+    display: block;
+    padding: 12px 32px;
+}
+header .nav>li ul li a:hover{
+    background-color: #e9e9e9;
+}
+header .nav>li:hover ul{
+    display: block;
+}
+header .nav>li a{
+    color: #666;
+    padding: 12px 24px;
+    margin-right: 4px;
+    border-radius: 4px;
+    transition: background-color 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+header .nav>li>a.active,header .nav>li:hover>a{
+    color: #fff;
+    background-color: #ff7e46;
+}
+.swiper-container{
+    padding-top: 20px;
+    width:100%;
+    height: 660px;
+}
+.swiper-button-prev,.swiper-container-rtl,.swiper-button-next{
+    border-radius: 3px;
+    width: 35px;
+    height: 70px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+}
+.swiper-button-prev:hover,.swiper-container-rtl:hover,.swiper-button-next:hover{
+    background-color: #6c54c0;
+}
+header .baab{
+    position: relative;
+    margin-top: -70px;
+    z-index: 99;
+    padding-bottom: 30px;
+}
+header .baab a{
+    text-decoration: none;
+}
+header .baab h4,header .baab p{
+    color: white;
+    transition: all 0.3s;
+}
+header .baab ul{
+    margin-left: 110px;
+    /* width: 1260px; */
+    height: 280px;
+}
+header .baab ul li{
+    list-style: none;
+    /* width: 420px; */
+    height: 280px;
+    max-height: 320px;
+    float: left;
+    transition: all 0.3s;
+}
+header .baab ul li p{
+    width: 340px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header .baab ul li:hover{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    margin-top: -20px;
+    height: 320px;
+}
+header .baab ul li:hover a p{
+    border: 1px solid rgba(255, 255, 255, .4);
+
+}
+header .baab ul .technology{
+    background-color: #43b9f6;
+}
+header .baab ul .characteristic{
+    background-color: #6686ff;
+}
+header .baab ul .heart{
+    background-color: #9878ff;
+}
+
+section .keshi p{
+    color: #c1c1c1;
+    font-size: 18px;
+}
+section .nav{
+    margin-top: 20px;
+}
+section .nav li{
+    float: right;
+}
+section .nav li a{
+    color: #616161;
+    padding: 10px 28px;
+    transition: background-color 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+section .nav li:hover a{
+    color: white;
+    background-color: #ff7e46;
+}
+
+section .example a{
+    text-decoration: none;
+}
+section .example h4{
+    color: #666;
+}
+section .example p{
+    color: #b7b7b7;
+}
+section .example li{
+    list-style: none;
+    width: 280px;
+    margin: 0 10px 25px 0;
+    border-bottom: 3px solid #e5e5e5;
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+section .example li img{
+    width: 100%;
+    height: 100%;
+}
+section .example li:hover{
+    border-color: #ff7e46;
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ff7e46;
+}
+section .example li:hover h4,section .example li:hover p{
+    color: white;
+}
+section .example>a span,section .timer .jt{
+    color: white;
+    font-size: 46px;
+    margin-left: 42%;
+    padding: 0 60px;
+    background-color: #666;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+section .example>a span:hover{
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    color: black;
+    background-color: white;   
+}
+section .teacher{
+    background-color: #449ce7;
+}
+section .swiper-container{
+    width: 100%;
+    height: 470px;
+}
+section .teacher img{
+    margin-top: 70px;
+    margin-left: 240px;
+    float: left;
+}
+section .teacher .jianjie{
+    float: left;
+    width: 400px;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+section .teacher .jianjie span{
+    color: #85BFEF;
+    margin-top: 30px;
+    font-size: 30px;
+    width: 140px;
+    text-align: center;
+    border: 1px solid #85BFEF ;
+}
+section .teacher .jianjie span:hover{
+    color: #fff;
+    border: 1px solid #fff;
+}
+section .news{
+    margin-top: 60px;
+}
+section .timer .jt:hover{
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    color: black;
+    background-color: #fff;
+}
+section .about>p{
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 13%;
+    color: #848484;
+}
+section .about>a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #eee;
+    margin-left: 44%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+section .about>a:hover{
+    border: 1px solid black;
+}
+section .about li{
+    list-style: none;
+    float: left;
+}
+section .about>span{
+    font-size: 40px;
+    float: left;
+    cursor: pointer;
+    margin-left: 14px;
+}
+section .about>span:hover{
+    color: #fff;
+    border-radius: 50%;
+    background-color: #262626;
+}
+footer .con{
+    margin-top: 60px;
+    height: 300px;
+    background-color: #F3F3F3;
+}
+footer .con .container{
+    padding-top: 60px;
+}
+footer .con .container .b span{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    margin-right: 10px;
+    cursor: pointer;
+}
+footer .con .container .c p{
+    margin-top: 20px;
+}
+footer .con .container .d{
+    margin-top: 50px;
+}
+footer .con .a,footer .con .b,footer .con .c,footer .con .d{
+    float: left;
+    margin-right: 130px;
+}
+footer .bottom{
+    margin-top: 18px;
+    height: 20px;
+    margin-bottom: 18px;
+}
+footer .bottom span{
+    margin-left: 40px;
+}
+footer .bottom span img{
+    height: 100%;
+    margin-left: 10px;
+}
+
+@media (max-width:992px){
+    header .top{
+        display: none;
+    }
+    header{
+        padding-top: 0;
+    }
+    .swiper-container{
+        padding-top: 0;
+    }
+}
